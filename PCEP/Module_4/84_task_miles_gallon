@@ -1,0 +1,26 @@
+def liters_100km_to_miles_gallon(liters):
+    #1 Mile = 1.609 km
+    #M? = 100 km
+    #Cross Multiply
+    #M x 1.609 = 100 x 1
+    # M= 100/1.609
+
+    #Now 
+    #1 gal = 3.789 ltrs
+    #G? = 3.9ltr
+    #Cross Multiply
+    #G x 3.789 = 3.9 x 1
+    #G = 3.9/3.789
+
+
+def miles_gallon_to_liters_100km(miles):
+    #1 gal = 3.785 ltr
+    #1 mile = 1.609 km
+    
+
+print(liters_100km_to_miles_gallon(3.9))
+print(liters_100km_to_miles_gallon(7.5))
+print(liters_100km_to_miles_gallon(10.))
+print(miles_gallon_to_liters_100km(60.3))
+print(miles_gallon_to_liters_100km(31.4))
+print(miles_gallon_to_liters_100km(23.5))
